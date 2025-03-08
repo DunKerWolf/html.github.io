@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clases Certus</title>
+    <title>Document</title>
 </head>
 <body>
- 
     <script>
-
-     var x =100;
-
-     while(x<=500){
-        document.write(x + "<br>");
-        x = x + 1;
-     }
-
-    
+    var x=0;
+    var datos=[20,30,40];
+    while(x<datos.length){
+        if(datos[x]==20){
+            break;
+        }
+    document.write(datos[x]+"<br>")
+    x=x+1;
+}
+    document.write(datos[x]+"<br>")
     </script>
+
 
 </body>
 </html>
